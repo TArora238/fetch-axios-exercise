@@ -1,0 +1,33 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    background: white;
+}
+
+#fetch,
+#axios,
+thead,
+tbody,
+td,
+tr {
+    border: 2px solid grey;
+}
+
+#fetch,
+#axios {
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+    background: white;
+}
+
+tbody tr:nth-child(odd) {
+    background: lightgrey;
+}
+
+tbody tr:hover {
+    background: lightblue;
+}
